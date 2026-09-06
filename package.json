@@ -1,0 +1,14 @@
+{
+  "name": "zain-digital-twin",
+  "version": "1.0.0",
+  "description": "Zain's Personal AI Assistant",
+  "scripts": {
+    "start": "clawdbot gateway --port 10000 --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@openclaw/cli": "latest"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

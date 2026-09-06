@@ -1,0 +1,27 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "./clawd",
+      "model": {
+        "primary": "google-antigravity/gemini-3-pro"
+      },
+      "models": {
+        "google-antigravity/gemini-3-pro": {}
+      }
+    }
+  },
+  "commands": {
+    "native": false,
+    "nativeSkills": false
+  },
+  "plugins": {
+    "entries": {
+      "whatsapp": {
+        "enabled": true
+      },
+      "google-antigravity-auth": {
+        "enabled": true
+      }
+    }
+  }
+}
